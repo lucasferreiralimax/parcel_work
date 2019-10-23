@@ -1,7 +1,7 @@
 {
   "name": "parcel_work",
   "version": "1.0.0",
-  "description": "",
+  "description": "Iniciando com Parceljs em seu workflow",
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.pug ./src/page/exemplo.pug --no-source-maps --port 8080",
