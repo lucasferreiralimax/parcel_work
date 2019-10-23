@@ -1,0 +1,25 @@
+{
+  "name": "parcel_work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.pug ./src/page/exemplo.pug --no-source-maps --port 8080",
+    "prod": "parcel build ./src/index.pug ./src/page/exemplo.pug --no-source-maps",
+    "clean": "rmdir dist /s /q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasferreiralimax/parcel_work.git"
+  },
+  "author": "lucasferreiralimax",
+  "bugs": {
+    "url": "https://github.com/lucasferreiralimax/parcel_work/issues"
+  },
+  "homepage": "https://github.com/lucasferreiralimax/parcel_work#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.7"
+  }
+}
